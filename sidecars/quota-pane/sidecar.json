@@ -1,0 +1,18 @@
+{
+  "command": "node",
+  "args": ["main.mjs"],
+  "restart_policy": "always",
+  "display_name": "额度监控 (Quota Monitor)",
+  "description": "实时监控 Gemini 4 Argon、Gemini Flash、Claude/GPT 模型组额度与账户 Credits 点数。",
+  "has_web_ui": true,
+  "ui_config": {
+    "display_name": "额度监控 (Quota Monitor)",
+    "views": [
+      {
+        "path": "/",
+        "entrypoint": "SIDECAR_UI_ENTRYPOINT_AUX_PANE",
+        "title": "额度监控 (Quota)"
+      }
+    ]
+  }
+}

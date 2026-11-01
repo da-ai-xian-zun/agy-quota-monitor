@@ -1,0 +1,17 @@
+{
+  "name": "agy-quota-monitor",
+  "displayName": "Antigravity Quota Monitor (额度监控)",
+  "version": "0.5.0",
+  "description": "实时监控 Gemini 组、Claude & GPT 组及 Pro 账户 Gemini 4 Argon 独立限额（Ultra 自动合并隐藏），按合并后的基础模型精确统计 5h 与 7d Token 消耗及等额官方 API 费用（美元），支持右侧常驻面板与 /quota-monitor 内联卡片。",
+  "logo": "assets/logo.svg",
+  "author": {
+    "name": "da-ai-xian-zun",
+    "url": "https://github.com/da-ai-xian-zun"
+  },
+  "repository": "https://github.com/da-ai-xian-zun/agy-quota-monitor",
+  "suggestedPrompts": [
+    "/quota-monitor 查看当前 Gemini 4 Argon 与全部模型的实时剩余额度",
+    "打开额度监控侧边栏面板实时盯盘模型消耗",
+    "分析我最近 5 小时和本周在 Gemini 4 Argon 上的 Token 消耗占比"
+  ]
+}

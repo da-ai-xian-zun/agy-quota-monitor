@@ -1,0 +1,7 @@
+{
+  "name": "agy-quota-monitor-sidecar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Antigravity Sidecar UI panel for real-time quota and Gemini 4 Argon consumption monitoring."
+}
